@@ -1,0 +1,108 @@
+@media (min-width:440px) and (max-width:600px)
+{
+    .wrapper .carousel {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 40px);
+        gap: 16px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scrollbar-width: 0;
+      }
+
+
+      .container {
+        & .TX {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 11%;
+        }
+      }
+
+      .container {
+        & .clothes {
+          display: flex;
+          justify-content: space-between;
+          padding: 0 9%;
+        }
+      }
+
+      .imgsfooter {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 8.5%;
+      }
+
+      .textCat {
+        & p {
+          font-weight: 400;
+          font-size: 25px;
+          margin-left:5% ;
+        }
+      }
+}
+
+
+
+@media (min-width:601px) and (max-width:800px)
+{
+    .wrapper .carousel {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 4) - 80px);
+        gap: 16px;
+        overflow-x: auto;
+        scroll-snap-type: none;
+        scroll-behavior: smooth;
+        scrollbar-width: 0;
+      }
+
+
+      .container {
+        & .TX {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 12%;
+        }
+      }
+
+      .container {
+        & .clothes {
+          display: flex;
+          justify-content: space-between;
+          padding: 0 12%;
+        }
+      }
+
+      .imgsfooter {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 8.5%;
+      }
+
+      .textCat {
+        & p {
+          font-weight: 400;
+          font-size: 25px;
+          margin-left:5% ;
+        }
+      }
+
+      .filter {
+        background-color: white;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        display: none;
+        height: 100vh;
+        z-index: 3;
+        direction: rtl;
+        margin-left: 62%;
+        position: relative;
+      }
+
+      }

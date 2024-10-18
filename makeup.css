@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .setting {
+        img {
+            width: 55%;
+        }
+    }
+
+    .imgsfooter {
+
+        position: relative;
+
+        .search {
+            position: absolute;
+
+        }
+    }
+}
+
+
+
+.container {
+ 
+    .MakeUP {
+        display: flex;
+    }
+
+    .btn {
+        padding: 10px 35px;
+        background: #0F4D68;
+    }
+}
+
+/* mobile devise sm*/
+@media (min-width: 300px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    
+        .imgsfooter {
+            position: relative;
+    
+            .search {
+                position: absolute;
+    
+            }
+        }
+    }
+    
+    
+    .container {
+     
+        .MakeUP {
+            display: flex;
+        }
+    
+        .btn {
+            padding: 10px 35px;
+            background: #0F4D68;
+        }
+    } 
+}
